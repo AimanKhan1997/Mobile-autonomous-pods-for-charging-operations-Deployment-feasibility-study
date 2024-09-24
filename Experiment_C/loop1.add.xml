@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-16 18:31:46 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <chargingStation id="cs_0" lane="E1_2" startPos="470.00" endPos="530.00" power="10000.00" efficiency="0.99"/>
+    <chargingStation id="cs_1" lane="E0_2" startPos="470.00" endPos="530.00" power="10000.00" efficiency="0.99"/>
+    <chargingStation id="cs_2" lane="E2_2" startPos="470.00" endPos="530.00" power="10000.00" efficiency="0.99"/>
+    <chargingStation id="cs_3" lane="E3_2" startPos="470.00" endPos="530.00" power="10000.00" efficiency="0.99"/>
+    <parkingArea id="pa_0" lane="E0_2" startPos="470.00" endPos="530.00" friendlyPos="true" roadsideCapacity="5" onRoad="0"/>
+    <parkingArea id="pa_1" lane="E1_2" startPos="470.00" endPos="530.00" friendlyPos="true" roadsideCapacity="5" onRoad="0"/>
+    <parkingArea id="pa_2" lane="E2_2" startPos="470.00" endPos="530.00" friendlyPos="true" roadsideCapacity="5" onRoad="0"/>
+    <parkingArea id="pa_3" lane="E3_2" startPos="470.00" endPos="530.00" friendlyPos="true" roadsideCapacity="5" onRoad="0"/>
+	<edgeData id="example_only_EV" file="data_only_EV.xml" period="300" begin="1000" vTypes="ElectricVehicle"/>
+	<edgeData id="full" file="data_full.xml" period="300" begin="1000" />
+</additional>
