@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-29 15:37:16 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="ChargingPod" length="2.50" minGap="0.20" maxSpeed="50.00" vClass="custom1" emissionClass="Energy/default" color="yellow" carFollowModel="CACC" accel="2.0" lcAssertive= "7" timeToTeleport="-1" decel="15.0" tau="1.0" sigma="0">
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="rotatingMass" value="0.01"/>
+        <param key="device.battery.capacity" value="2000"/>
+		<param key="device.battery.chargeLevel" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingThreshold" value="0.1"/>
+        <param key="mass" value="5"/>
+    </vType>
+    <vType id="ElectricVehicle" length="5.00" minGap="10.20" maxSpeed="10.00" vClass="evehicle" emissionClass="Energy/default" color="white" carFollowModel="CACC" lcAssertive= "7" accel="1.0" decel="1.0" tau="5.0" sigma="0">
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="rotatingMass" value="0.01"/>
+        <param key="device.battery.capacity" value="640"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingThreshold" value="0.1"/>
+        <param key="mass" value="18"/>
+    </vType>
+    <!-- Routes -->
+    <route id="r_0" edges="E0 E1 E2 E3" repeat="30"/>
+    <route id="r_1" edges="E0 E1 E2 E3" repeat="30"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_1" type="ChargingPod" begin="0.00" route="r_1" end="2000.00" number="20">
+        <stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+		<stop parkingArea="pa_0" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_1" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_2" duration="90000.00" friendlyPos="true"/>
+        <stop parkingArea="pa_3" duration="90000.00" friendlyPos="true"/>
+	</flow>
+<vehicle id="f_0.0" type="ElectricVehicle" route="r_0" depart="3000.0">
+  <param key="device.battery.chargeLevel" value="400.3721562566306"/>
+ </vehicle>
+ <vehicle id="f_0.1" type="ElectricVehicle" route="r_0" depart="3010.0">
+  <param key="device.battery.chargeLevel" value="259.04069306838477"/>
+ </vehicle>
+ <vehicle id="f_0.2" type="ElectricVehicle" route="r_0" depart="3020.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.3" type="ElectricVehicle" route="r_0" depart="3030.0">
+  <param key="device.battery.chargeLevel" value="316.6902083947762"/>
+ </vehicle>
+ <vehicle id="f_0.4" type="ElectricVehicle" route="r_0" depart="3040.0">
+  <param key="device.battery.chargeLevel" value="486.0079744308505"/>
+ </vehicle>
+ <vehicle id="f_0.5" type="ElectricVehicle" route="r_0" depart="3050.0">
+  <param key="device.battery.chargeLevel" value="235.1370874527694"/>
+ </vehicle>
+ <vehicle id="f_0.6" type="ElectricVehicle" route="r_0" depart="3060.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.7" type="ElectricVehicle" route="r_0" depart="3070.0">
+  <param key="device.battery.chargeLevel" value="580.1122236904177"/>
+ </vehicle>
+ <vehicle id="f_0.8" type="ElectricVehicle" route="r_0" depart="3080.0">
+  <param key="device.battery.chargeLevel" value="270.67198512906816"/>
+ </vehicle>
+ <vehicle id="f_0.9" type="ElectricVehicle" route="r_0" depart="3090.0">
+  <param key="device.battery.chargeLevel" value="297.3493218958871"/>
+ </vehicle>
+ <vehicle id="f_0.10" type="ElectricVehicle" route="r_0" depart="3100.0">
+  <param key="device.battery.chargeLevel" value="640"/>
+ </vehicle>
+ <vehicle id="f_0.11" type="ElectricVehicle" route="r_0" depart="3110.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.12" type="ElectricVehicle" route="r_0" depart="3120.0">
+  <param key="device.battery.chargeLevel" value="361.180757315283"/>
+ </vehicle>
+ <vehicle id="f_0.13" type="ElectricVehicle" route="r_0" depart="3130.0">
+  <param key="device.battery.chargeLevel" value="248.22546238940345"/>
+ </vehicle>
+ <vehicle id="f_0.14" type="ElectricVehicle" route="r_0" depart="3140.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.15" type="ElectricVehicle" route="r_0" depart="3150.0">
+  <param key="device.battery.chargeLevel" value="487.4197311843178"/>
+ </vehicle>
+ <vehicle id="f_0.16" type="ElectricVehicle" route="r_0" depart="3160.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.17" type="ElectricVehicle" route="r_0" depart="3170.0">
+  <param key="device.battery.chargeLevel" value="323.0269366319436"/>
+ </vehicle>
+ <vehicle id="f_0.18" type="ElectricVehicle" route="r_0" depart="3180.0">
+  <param key="device.battery.chargeLevel" value="325.40016321211914"/>
+ </vehicle>
+ <vehicle id="f_0.19" type="ElectricVehicle" route="r_0" depart="3190.0">
+  <param key="device.battery.chargeLevel" value="263.7594009143258"/>
+ </vehicle>
+ <vehicle id="f_0.20" type="ElectricVehicle" route="r_0" depart="3200.0">
+  <param key="device.battery.chargeLevel" value="352.90985762493517"/>
+ </vehicle>
+ <vehicle id="f_0.21" type="ElectricVehicle" route="r_0" depart="3210.0">
+  <param key="device.battery.chargeLevel" value="483.7032742813109"/>
+ </vehicle>
+ <vehicle id="f_0.22" type="ElectricVehicle" route="r_0" depart="3220.0">
+  <param key="device.battery.chargeLevel" value="248.69888356916437"/>
+ </vehicle>
+ <vehicle id="f_0.23" type="ElectricVehicle" route="r_0" depart="3230.0">
+  <param key="device.battery.chargeLevel" value="284.9137075301816"/>
+ </vehicle>
+ <vehicle id="f_0.24" type="ElectricVehicle" route="r_0" depart="3240.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.25" type="ElectricVehicle" route="r_0" depart="3250.0">
+  <param key="device.battery.chargeLevel" value="230.3092030296628"/>
+ </vehicle>
+ <vehicle id="f_0.26" type="ElectricVehicle" route="r_0" depart="3260.0">
+  <param key="device.battery.chargeLevel" value="521.842733129215"/>
+ </vehicle>
+ <vehicle id="f_0.27" type="ElectricVehicle" route="r_0" depart="3270.0">
+  <param key="device.battery.chargeLevel" value="397.38450244895785"/>
+ </vehicle>
+ <vehicle id="f_0.28" type="ElectricVehicle" route="r_0" depart="3280.0">
+  <param key="device.battery.chargeLevel" value="396.5910475630887"/>
+ </vehicle>
+ <vehicle id="f_0.29" type="ElectricVehicle" route="r_0" depart="3290.0">
+  <param key="device.battery.chargeLevel" value="368.0143094272554"/>
+ </vehicle>
+ <vehicle id="f_0.30" type="ElectricVehicle" route="r_0" depart="3300.0">
+  <param key="device.battery.chargeLevel" value="506.5786521411675"/>
+ </vehicle>
+ <vehicle id="f_0.31" type="ElectricVehicle" route="r_0" depart="3310.0">
+  <param key="device.battery.chargeLevel" value="380.4586049284345"/>
+ </vehicle>
+ <vehicle id="f_0.32" type="ElectricVehicle" route="r_0" depart="3320.0">
+  <param key="device.battery.chargeLevel" value="312.39265976000775"/>
+ </vehicle>
+ <vehicle id="f_0.33" type="ElectricVehicle" route="r_0" depart="3330.0">
+  <param key="device.battery.chargeLevel" value="444.3983700744499"/>
+ </vehicle>
+ <vehicle id="f_0.34" type="ElectricVehicle" route="r_0" depart="3340.0">
+  <param key="device.battery.chargeLevel" value="356.8460908158982"/>
+ </vehicle>
+ <vehicle id="f_0.35" type="ElectricVehicle" route="r_0" depart="3350.0">
+  <param key="device.battery.chargeLevel" value="452.8939250498619"/>
+ </vehicle>
+ <vehicle id="f_0.36" type="ElectricVehicle" route="r_0" depart="3360.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.37" type="ElectricVehicle" route="r_0" depart="3370.0">
+  <param key="device.battery.chargeLevel" value="263.8021226625201"/>
+ </vehicle>
+ <vehicle id="f_0.38" type="ElectricVehicle" route="r_0" depart="3380.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.39" type="ElectricVehicle" route="r_0" depart="3390.0">
+  <param key="device.battery.chargeLevel" value="273.3026651640669"/>
+ </vehicle>
+ <vehicle id="f_0.40" type="ElectricVehicle" route="r_0" depart="3400.0">
+  <param key="device.battery.chargeLevel" value="520.7572532976786"/>
+ </vehicle>
+ <vehicle id="f_0.41" type="ElectricVehicle" route="r_0" depart="3410.0">
+  <param key="device.battery.chargeLevel" value="372.52993434334746"/>
+ </vehicle>
+ <vehicle id="f_0.42" type="ElectricVehicle" route="r_0" depart="3420.0">
+  <param key="device.battery.chargeLevel" value="377.854189856141"/>
+ </vehicle>
+ <vehicle id="f_0.43" type="ElectricVehicle" route="r_0" depart="3430.0">
+  <param key="device.battery.chargeLevel" value="354.14387810237565"/>
+ </vehicle>
+ <vehicle id="f_0.44" type="ElectricVehicle" route="r_0" depart="3440.0">
+  <param key="device.battery.chargeLevel" value="640"/>
+ </vehicle>
+ <vehicle id="f_0.45" type="ElectricVehicle" route="r_0" depart="3450.0">
+  <param key="device.battery.chargeLevel" value="268.05461556016166"/>
+ </vehicle>
+ <vehicle id="f_0.46" type="ElectricVehicle" route="r_0" depart="3460.0">
+  <param key="device.battery.chargeLevel" value="438.5171120004959"/>
+ </vehicle>
+ <vehicle id="f_0.47" type="ElectricVehicle" route="r_0" depart="3470.0">
+  <param key="device.battery.chargeLevel" value="359.23215628823766"/>
+ </vehicle>
+ <vehicle id="f_0.48" type="ElectricVehicle" route="r_0" depart="3480.0">
+  <param key="device.battery.chargeLevel" value="238.37509289764705"/>
+ </vehicle>
+ <vehicle id="f_0.49" type="ElectricVehicle" route="r_0" depart="3490.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.50" type="ElectricVehicle" route="r_0" depart="3500.0">
+  <param key="device.battery.chargeLevel" value="461.68880445759686"/>
+ </vehicle>
+ <vehicle id="f_0.51" type="ElectricVehicle" route="r_0" depart="3510.0">
+  <param key="device.battery.chargeLevel" value="301.7293694499129"/>
+ </vehicle>
+ <vehicle id="f_0.52" type="ElectricVehicle" route="r_0" depart="3520.0">
+  <param key="device.battery.chargeLevel" value="323.31124022411063"/>
+ </vehicle>
+ <vehicle id="f_0.53" type="ElectricVehicle" route="r_0" depart="3530.0">
+  <param key="device.battery.chargeLevel" value="402.82813412645584"/>
+ </vehicle>
+ <vehicle id="f_0.54" type="ElectricVehicle" route="r_0" depart="3540.0">
+  <param key="device.battery.chargeLevel" value="280.5104630226217"/>
+ </vehicle>
+ <vehicle id="f_0.55" type="ElectricVehicle" route="r_0" depart="3550.0">
+  <param key="device.battery.chargeLevel" value="418.5474123560387"/>
+ </vehicle>
+ <vehicle id="f_0.56" type="ElectricVehicle" route="r_0" depart="3560.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.57" type="ElectricVehicle" route="r_0" depart="3570.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.58" type="ElectricVehicle" route="r_0" depart="3580.0">
+  <param key="device.battery.chargeLevel" value="389.57162436977114"/>
+ </vehicle>
+ <vehicle id="f_0.59" type="ElectricVehicle" route="r_0" depart="3590.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.60" type="ElectricVehicle" route="r_0" depart="3600.0">
+  <param key="device.battery.chargeLevel" value="321.482132396325"/>
+ </vehicle>
+ <vehicle id="f_0.61" type="ElectricVehicle" route="r_0" depart="3610.0">
+  <param key="device.battery.chargeLevel" value="394.7755813937067"/>
+ </vehicle>
+ <vehicle id="f_0.62" type="ElectricVehicle" route="r_0" depart="3620.0">
+  <param key="device.battery.chargeLevel" value="500.0888796710509"/>
+ </vehicle>
+ <vehicle id="f_0.63" type="ElectricVehicle" route="r_0" depart="3630.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.64" type="ElectricVehicle" route="r_0" depart="3640.0">
+  <param key="device.battery.chargeLevel" value="402.5158382804666"/>
+ </vehicle>
+ <vehicle id="f_0.65" type="ElectricVehicle" route="r_0" depart="3650.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.66" type="ElectricVehicle" route="r_0" depart="3660.0">
+  <param key="device.battery.chargeLevel" value="580.8245156815362"/>
+ </vehicle>
+ <vehicle id="f_0.67" type="ElectricVehicle" route="r_0" depart="3670.0">
+  <param key="device.battery.chargeLevel" value="402.6044683920644"/>
+ </vehicle>
+ <vehicle id="f_0.68" type="ElectricVehicle" route="r_0" depart="3680.0">
+  <param key="device.battery.chargeLevel" value="422.88175239145033"/>
+ </vehicle>
+ <vehicle id="f_0.69" type="ElectricVehicle" route="r_0" depart="3690.0">
+  <param key="device.battery.chargeLevel" value="458.0133483937507"/>
+ </vehicle>
+ <vehicle id="f_0.70" type="ElectricVehicle" route="r_0" depart="3700.0">
+  <param key="device.battery.chargeLevel" value="261.8061341469098"/>
+ </vehicle>
+ <vehicle id="f_0.71" type="ElectricVehicle" route="r_0" depart="3710.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.72" type="ElectricVehicle" route="r_0" depart="3720.0">
+  <param key="device.battery.chargeLevel" value="230"/>
+ </vehicle>
+ <vehicle id="f_0.73" type="ElectricVehicle" route="r_0" depart="3730.0">
+  <param key="device.battery.chargeLevel" value="335.5202207804796"/>
+ </vehicle>
+ <vehicle id="f_0.74" type="ElectricVehicle" route="r_0" depart="3740.0">
+  <param key="device.battery.chargeLevel" value="358.7991722147673"/>
+ </vehicle>
+	 </routes>
