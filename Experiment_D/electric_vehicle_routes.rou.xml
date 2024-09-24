@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+<routes xmlns="http://sumo.dlr.de/xsd/routes_file.xsd">
+ <vehicle id="f_0.0" type="ElectricVehicle" route="r_0" depart="3000.0">
+  <param key="device.battery.chargeLevel" value="213.7305453895345"/>
+ </vehicle>
+ <vehicle id="f_0.1" type="ElectricVehicle" route="r_0" depart="3020.0">
+  <param key="device.battery.chargeLevel" value="276.01349775953685"/>
+ </vehicle>
+ <vehicle id="f_0.2" type="ElectricVehicle" route="r_0" depart="3040.0">
+  <param key="device.battery.chargeLevel" value="274.86817592408556"/>
+ </vehicle>
+ <vehicle id="f_0.3" type="ElectricVehicle" route="r_0" depart="3060.0">
+  <param key="device.battery.chargeLevel" value="342.09068864017047"/>
+ </vehicle>
+ <vehicle id="f_0.4" type="ElectricVehicle" route="r_0" depart="3080.0">
+  <param key="device.battery.chargeLevel" value="346.6385665881934"/>
+ </vehicle>
+ <vehicle id="f_0.5" type="ElectricVehicle" route="r_0" depart="3100.0">
+  <param key="device.battery.chargeLevel" value="200"/>
+ </vehicle>
+ <vehicle id="f_0.6" type="ElectricVehicle" route="r_0" depart="3120.0">
+  <param key="device.battery.chargeLevel" value="340.90539445886816"/>
+ </vehicle>
+ <vehicle id="f_0.7" type="ElectricVehicle" route="r_0" depart="3140.0">
+  <param key="device.battery.chargeLevel" value="387.2258488048993"/>
+ </vehicle>
+ <vehicle id="f_0.8" type="ElectricVehicle" route="r_0" depart="3160.0">
+  <param key="device.battery.chargeLevel" value="375.8236991506841"/>
+ </vehicle>
+ <vehicle id="f_0.9" type="ElectricVehicle" route="r_0" depart="3180.0">
+  <param key="device.battery.chargeLevel" value="387.14420397592113"/>
+ </vehicle>
+ <vehicle id="f_0.10" type="ElectricVehicle" route="r_0" depart="3200.0">
+  <param key="device.battery.chargeLevel" value="311.51460580259436"/>
+ </vehicle>
+ <vehicle id="f_0.11" type="ElectricVehicle" route="r_0" depart="3220.0">
+  <param key="device.battery.chargeLevel" value="304.1589759436353"/>
+ </vehicle>
+ <vehicle id="f_0.12" type="ElectricVehicle" route="r_0" depart="3240.0">
+  <param key="device.battery.chargeLevel" value="357.11619086816563"/>
+ </vehicle>
+ <vehicle id="f_0.13" type="ElectricVehicle" route="r_0" depart="3260.0">
+  <param key="device.battery.chargeLevel" value="477.9094365198661"/>
+ </vehicle>
+ <vehicle id="f_0.14" type="ElectricVehicle" route="r_0" depart="3280.0">
+  <param key="device.battery.chargeLevel" value="323.474666459016"/>
+ </vehicle>
+ <vehicle id="f_0.15" type="ElectricVehicle" route="r_0" depart="3300.0">
+  <param key="device.battery.chargeLevel" value="422.6492718465776"/>
+ </vehicle>
+ <vehicle id="f_0.16" type="ElectricVehicle" route="r_0" depart="3320.0">
+  <param key="device.battery.chargeLevel" value="379.4730557160382"/>
+ </vehicle>
+ <vehicle id="f_0.17" type="ElectricVehicle" route="r_0" depart="3340.0">
+  <param key="device.battery.chargeLevel" value="289.5662482798064"/>
+ </vehicle>
+ <vehicle id="f_0.18" type="ElectricVehicle" route="r_0" depart="3360.0">
+  <param key="device.battery.chargeLevel" value="455.6297992976078"/>
+ </vehicle>
+ <vehicle id="f_0.19" type="ElectricVehicle" route="r_0" depart="3380.0">
+  <param key="device.battery.chargeLevel" value="203.203335274642"/>
+ </vehicle>
+ <vehicle id="f_0.20" type="ElectricVehicle" route="r_0" depart="3400.0">
+  <param key="device.battery.chargeLevel" value="200"/>
+ </vehicle>
+ <vehicle id="f_0.21" type="ElectricVehicle" route="r_0" depart="3420.0">
+  <param key="device.battery.chargeLevel" value="412.2970141381896"/>
+ </vehicle>
+ <vehicle id="f_0.22" type="ElectricVehicle" route="r_0" depart="3440.0">
+  <param key="device.battery.chargeLevel" value="244.63523155987085"/>
+ </vehicle>
+ <vehicle id="f_0.23" type="ElectricVehicle" route="r_0" depart="3460.0">
+  <param key="device.battery.chargeLevel" value="369.49763906969724"/>
+ </vehicle>
+ <vehicle id="f_0.24" type="ElectricVehicle" route="r_0" depart="3480.0">
+  <param key="device.battery.chargeLevel" value="385.94800637506427"/>
+ </vehicle>
+ <vehicle id="f_0.25" type="ElectricVehicle" route="r_0" depart="3500.0">
+  <param key="device.battery.chargeLevel" value="248.5700070672252"/>
+ </vehicle>
+ <vehicle id="f_0.26" type="ElectricVehicle" route="r_0" depart="3520.0">
+  <param key="device.battery.chargeLevel" value="417.4397637200721"/>
+ </vehicle>
+ <vehicle id="f_0.27" type="ElectricVehicle" route="r_0" depart="3540.0">
+  <param key="device.battery.chargeLevel" value="377.0301231655771"/>
+ </vehicle>
+ <vehicle id="f_0.28" type="ElectricVehicle" route="r_0" depart="3560.0">
+  <param key="device.battery.chargeLevel" value="310.7630540328461"/>
+ </vehicle>
+ <vehicle id="f_0.29" type="ElectricVehicle" route="r_0" depart="3580.0">
+  <param key="device.battery.chargeLevel" value="452.0812145322636"/>
+ </vehicle>
+ <vehicle id="f_0.30" type="ElectricVehicle" route="r_0" depart="3600.0">
+  <param key="device.battery.chargeLevel" value="411.0370410698263"/>
+ </vehicle>
+ <vehicle id="f_0.31" type="ElectricVehicle" route="r_0" depart="3620.0">
+  <param key="device.battery.chargeLevel" value="294.5537248366709"/>
+ </vehicle>
+ <vehicle id="f_0.32" type="ElectricVehicle" route="r_0" depart="3640.0">
+  <param key="device.battery.chargeLevel" value="304.23652489939593"/>
+ </vehicle>
+ <vehicle id="f_0.33" type="ElectricVehicle" route="r_0" depart="3660.0">
+  <param key="device.battery.chargeLevel" value="351.425887301136"/>
+ </vehicle>
+ <vehicle id="f_0.34" type="ElectricVehicle" route="r_0" depart="3680.0">
+  <param key="device.battery.chargeLevel" value="398.90501691273954"/>
+ </vehicle>
+ <vehicle id="f_0.35" type="ElectricVehicle" route="r_0" depart="3700.0">
+  <param key="device.battery.chargeLevel" value="290.77611866665285"/>
+ </vehicle>
+ <vehicle id="f_0.36" type="ElectricVehicle" route="r_0" depart="3720.0">
+  <param key="device.battery.chargeLevel" value="200"/>
+ </vehicle>
+ <vehicle id="f_0.37" type="ElectricVehicle" route="r_0" depart="3740.0">
+  <param key="device.battery.chargeLevel" value="283.1889124001148"/>
+ </vehicle>
+ <vehicle id="f_0.38" type="ElectricVehicle" route="r_0" depart="3760.0">
+  <param key="device.battery.chargeLevel" value="406.3220059463084"/>
+ </vehicle>
+ <vehicle id="f_0.39" type="ElectricVehicle" route="r_0" depart="3780.0">
+  <param key="device.battery.chargeLevel" value="267.95082039892975"/>
+ </vehicle>
+ <vehicle id="f_0.40" type="ElectricVehicle" route="r_0" depart="3800.0">
+  <param key="device.battery.chargeLevel" value="347.7254065641483"/>
+ </vehicle>
+ <vehicle id="f_0.41" type="ElectricVehicle" route="r_0" depart="3820.0">
+  <param key="device.battery.chargeLevel" value="333.5417988645552"/>
+ </vehicle>
+ <vehicle id="f_0.42" type="ElectricVehicle" route="r_0" depart="3840.0">
+  <param key="device.battery.chargeLevel" value="397.8954728480642"/>
+ </vehicle>
+ <vehicle id="f_0.43" type="ElectricVehicle" route="r_0" depart="3860.0">
+  <param key="device.battery.chargeLevel" value="457.618247750689"/>
+ </vehicle>
+ <vehicle id="f_0.44" type="ElectricVehicle" route="r_0" depart="3880.0">
+  <param key="device.battery.chargeLevel" value="385.86482863130016"/>
+ </vehicle>
+ <vehicle id="f_0.45" type="ElectricVehicle" route="r_0" depart="3900.0">
+  <param key="device.battery.chargeLevel" value="345.29452325283347"/>
+ </vehicle>
+ <vehicle id="f_0.46" type="ElectricVehicle" route="r_0" depart="3920.0">
+  <param key="device.battery.chargeLevel" value="297.77934760419015"/>
+ </vehicle>
+ <vehicle id="f_0.47" type="ElectricVehicle" route="r_0" depart="3940.0">
+  <param key="device.battery.chargeLevel" value="307.83737118311126"/>
+ </vehicle>
+ <vehicle id="f_0.48" type="ElectricVehicle" route="r_0" depart="3960.0">
+  <param key="device.battery.chargeLevel" value="203.39124468160878"/>
+ </vehicle>
+ <vehicle id="f_0.49" type="ElectricVehicle" route="r_0" depart="3980.0">
+  <param key="device.battery.chargeLevel" value="227.08430325982712"/>
+ </vehicle>
+ <vehicle id="f_0.50" type="ElectricVehicle" route="r_0" depart="4000.0">
+  <param key="device.battery.chargeLevel" value="308.7798822209917"/>
+ </vehicle>
+ <vehicle id="f_0.51" type="ElectricVehicle" route="r_0" depart="4020.0">
+  <param key="device.battery.chargeLevel" value="239.57392690781103"/>
+ </vehicle>
+ <vehicle id="f_0.52" type="ElectricVehicle" route="r_0" depart="4040.0">
+  <param key="device.battery.chargeLevel" value="200"/>
+ </vehicle>
+ <vehicle id="f_0.53" type="ElectricVehicle" route="r_0" depart="4060.0">
+  <param key="device.battery.chargeLevel" value="332.7633967615546"/>
+ </vehicle>
+ <vehicle id="f_0.54" type="ElectricVehicle" route="r_0" depart="4080.0">
+  <param key="device.battery.chargeLevel" value="427.6231888437701"/>
+ </vehicle>
+ <vehicle id="f_0.55" type="ElectricVehicle" route="r_0" depart="4100.0">
+  <param key="device.battery.chargeLevel" value="252.22638177115635"/>
+ </vehicle>
+ <vehicle id="f_0.56" type="ElectricVehicle" route="r_0" depart="4120.0">
+  <param key="device.battery.chargeLevel" value="369.50252402151784"/>
+ </vehicle>
+ <vehicle id="f_0.57" type="ElectricVehicle" route="r_0" depart="4140.0">
+  <param key="device.battery.chargeLevel" value="251.75959710968584"/>
+ </vehicle>
+ <vehicle id="f_0.58" type="ElectricVehicle" route="r_0" depart="4160.0">
+  <param key="device.battery.chargeLevel" value="250.97755543501665"/>
+ </vehicle>
+ <vehicle id="f_0.59" type="ElectricVehicle" route="r_0" depart="4180.0">
+  <param key="device.battery.chargeLevel" value="241.65809800132618"/>
+ </vehicle>
+ <vehicle id="f_0.60" type="ElectricVehicle" route="r_0" depart="4200.0">
+  <param key="device.battery.chargeLevel" value="243.04161193201293"/>
+ </vehicle>
+ <vehicle id="f_0.61" type="ElectricVehicle" route="r_0" depart="4220.0">
+  <param key="device.battery.chargeLevel" value="359.09891289660294"/>
+ </vehicle>
+ <vehicle id="f_0.62" type="ElectricVehicle" route="r_0" depart="4240.0">
+  <param key="device.battery.chargeLevel" value="413.94789058052015"/>
+ </vehicle>
+ <vehicle id="f_0.63" type="ElectricVehicle" route="r_0" depart="4260.0">
+  <param key="device.battery.chargeLevel" value="244.04487350370414"/>
+ </vehicle>
+ <vehicle id="f_0.64" type="ElectricVehicle" route="r_0" depart="4280.0">
+  <param key="device.battery.chargeLevel" value="408.7479134609995"/>
+ </vehicle>
+ <vehicle id="f_0.65" type="ElectricVehicle" route="r_0" depart="4300.0">
+  <param key="device.battery.chargeLevel" value="331.6381100912569"/>
+ </vehicle>
+ <vehicle id="f_0.66" type="ElectricVehicle" route="r_0" depart="4320.0">
+  <param key="device.battery.chargeLevel" value="278.597310286195"/>
+ </vehicle>
+ <vehicle id="f_0.67" type="ElectricVehicle" route="r_0" depart="4340.0">
+  <param key="device.battery.chargeLevel" value="270.12361260995556"/>
+ </vehicle>
+ <vehicle id="f_0.68" type="ElectricVehicle" route="r_0" depart="4360.0">
+  <param key="device.battery.chargeLevel" value="359.0099219368319"/>
+ </vehicle>
+ <vehicle id="f_0.69" type="ElectricVehicle" route="r_0" depart="4380.0">
+  <param key="device.battery.chargeLevel" value="325.6140223262273"/>
+ </vehicle>
+ <vehicle id="f_0.70" type="ElectricVehicle" route="r_0" depart="4400.0">
+  <param key="device.battery.chargeLevel" value="542.6262415135446"/>
+ </vehicle>
+ <vehicle id="f_0.71" type="ElectricVehicle" route="r_0" depart="4420.0">
+  <param key="device.battery.chargeLevel" value="410.62119374498354"/>
+ </vehicle>
+ <vehicle id="f_0.72" type="ElectricVehicle" route="r_0" depart="4440.0">
+  <param key="device.battery.chargeLevel" value="231.05550371643974"/>
+ </vehicle>
+ <vehicle id="f_0.73" type="ElectricVehicle" route="r_0" depart="4460.0">
+  <param key="device.battery.chargeLevel" value="436.14331917122064"/>
+ </vehicle>
+ <vehicle id="f_0.74" type="ElectricVehicle" route="r_0" depart="4480.0">
+  <param key="device.battery.chargeLevel" value="372.8492527129709"/>
+ </vehicle>
+ <vehicle id="f_0.75" type="ElectricVehicle" route="r_0" depart="4500.0">
+  <param key="device.battery.chargeLevel" value="281.0737844264965"/>
+ </vehicle>
+ <vehicle id="f_0.76" type="ElectricVehicle" route="r_0" depart="4520.0">
+  <param key="device.battery.chargeLevel" value="505.7803156269399"/>
+ </vehicle>
+ <vehicle id="f_0.77" type="ElectricVehicle" route="r_0" depart="4540.0">
+  <param key="device.battery.chargeLevel" value="426.1144394827355"/>
+ </vehicle>
+ <vehicle id="f_0.78" type="ElectricVehicle" route="r_0" depart="4560.0">
+  <param key="device.battery.chargeLevel" value="444.0763570496697"/>
+ </vehicle>
+ <vehicle id="f_0.79" type="ElectricVehicle" route="r_0" depart="4580.0">
+  <param key="device.battery.chargeLevel" value="285.42509233545167"/>
+ </vehicle>
+ <vehicle id="f_0.80" type="ElectricVehicle" route="r_0" depart="4600.0">
+  <param key="device.battery.chargeLevel" value="388.8795188405889"/>
+ </vehicle>
+ <vehicle id="f_0.81" type="ElectricVehicle" route="r_0" depart="4620.0">
+  <param key="device.battery.chargeLevel" value="206.69108749950632"/>
+ </vehicle>
+ <vehicle id="f_0.82" type="ElectricVehicle" route="r_0" depart="4640.0">
+  <param key="device.battery.chargeLevel" value="265.1096645252904"/>
+ </vehicle>
+ <vehicle id="f_0.83" type="ElectricVehicle" route="r_0" depart="4660.0">
+  <param key="device.battery.chargeLevel" value="457.10750776426056"/>
+ </vehicle>
+ <vehicle id="f_0.84" type="ElectricVehicle" route="r_0" depart="4680.0">
+  <param key="device.battery.chargeLevel" value="439.85686891719877"/>
+ </vehicle>
+ <vehicle id="f_0.85" type="ElectricVehicle" route="r_0" depart="4700.0">
+  <param key="device.battery.chargeLevel" value="372.32746592610425"/>
+ </vehicle>
+ <vehicle id="f_0.86" type="ElectricVehicle" route="r_0" depart="4720.0">
+  <param key="device.battery.chargeLevel" value="447.855689083929"/>
+ </vehicle>
+ <vehicle id="f_0.87" type="ElectricVehicle" route="r_0" depart="4740.0">
+  <param key="device.battery.chargeLevel" value="257.0896209535962"/>
+ </vehicle>
+ <vehicle id="f_0.88" type="ElectricVehicle" route="r_0" depart="4760.0">
+  <param key="device.battery.chargeLevel" value="506.6021982464773"/>
+ </vehicle>
+ <vehicle id="f_0.89" type="ElectricVehicle" route="r_0" depart="4780.0">
+  <param key="device.battery.chargeLevel" value="332.39073632135575"/>
+ </vehicle>
+ <vehicle id="f_0.90" type="ElectricVehicle" route="r_0" depart="4800.0">
+  <param key="device.battery.chargeLevel" value="529.6093656064719"/>
+ </vehicle>
+ <vehicle id="f_0.91" type="ElectricVehicle" route="r_0" depart="4820.0">
+  <param key="device.battery.chargeLevel" value="525.3583759397444"/>
+ </vehicle>
+ <vehicle id="f_0.92" type="ElectricVehicle" route="r_0" depart="4840.0">
+  <param key="device.battery.chargeLevel" value="224.99529212369765"/>
+ </vehicle>
+ <vehicle id="f_0.93" type="ElectricVehicle" route="r_0" depart="4860.0">
+  <param key="device.battery.chargeLevel" value="322.7249586082303"/>
+ </vehicle>
+ <vehicle id="f_0.94" type="ElectricVehicle" route="r_0" depart="4880.0">
+  <param key="device.battery.chargeLevel" value="410.2666877914645"/>
+ </vehicle>
+ <vehicle id="f_0.95" type="ElectricVehicle" route="r_0" depart="4900.0">
+  <param key="device.battery.chargeLevel" value="285.0791353786009"/>
+ </vehicle>
+ <vehicle id="f_0.96" type="ElectricVehicle" route="r_0" depart="4920.0">
+  <param key="device.battery.chargeLevel" value="328.65251937416"/>
+ </vehicle>
+ <vehicle id="f_0.97" type="ElectricVehicle" route="r_0" depart="4940.0">
+  <param key="device.battery.chargeLevel" value="373.1573264465029"/>
+ </vehicle>
+ <vehicle id="f_0.98" type="ElectricVehicle" route="r_0" depart="4960.0">
+  <param key="device.battery.chargeLevel" value="281.6127276958901"/>
+ </vehicle>
+ <vehicle id="f_0.99" type="ElectricVehicle" route="r_0" depart="4980.0">
+  <param key="device.battery.chargeLevel" value="436.4969920897589"/>
+ </vehicle>
+</routes>
