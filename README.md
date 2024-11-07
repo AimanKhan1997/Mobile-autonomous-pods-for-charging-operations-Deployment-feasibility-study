@@ -2,12 +2,12 @@ This repository contains the code to replicate the experiments proposed in the s
 
 This code provides a simulation environment to simulate the behaviour of mobile autonomous pods (MAPs) for charging electric autonomous vehicles (eAVs). The charging is achieved through vehicle-to-vehicle energy transfer.
 
-To model the autonomous behavior of eAVs and MAPs, we use the cooperative adaptive cruise control (CACC) [37] car following model available in SUMO. For the charge sharing between MAPs and EVs, we assume a conductive transfer through robotic conductive arms. We assume that eAVs cannot share charge among each other.
+To model the autonomous behavior of eAVs and MAPs, we use the cooperative adaptive cruise control (CACC) car following model available in SUMO. For the charge sharing between MAPs and EVs, we assume a conductive transfer through robotic conductive arms. We assume that eAVs cannot share charge among each other.
 
 We adopt a stylized network to simulate and analyze the feasibility of the proposed charging system. The network consists of four edges, with one-way traffic, connected in a loop as shown in Fig.
 ![Khan1](https://github.com/user-attachments/assets/7d8639b8-7596-4841-b763-95d70c07d1cb)
 
-Each edge has a parking lot in the middle where multiple MAPs are parked and charged at the same time, to represent the vertical parking presented in [36]. In the experiments, we assume all parking lots have fully charged MAPs at the beginning of the simulation and all MAPs are equally distributed on all edges.
+Each edge has a parking lot in the middle where multiple MAPs are parked and charged at the same time, to represent the vertical parking. In the experiments, we assume all parking lots have fully charged MAPs at the beginning of the simulation and all MAPs are equally distributed on all edges.
 
 To run the code run the the line in the terminal to execute the code- python loop_1_MAIN.py loop1.sumocfg
 
